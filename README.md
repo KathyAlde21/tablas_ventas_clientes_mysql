@@ -142,4 +142,4 @@ FROM ventas;
 
 **<h3>:book: EER Diagram:</h3>**
 
-<img src="./img/eer_diagram.jpg" alt="EER Diagram" style="width: 80%;">
+<img src="./img/eer_diagram.jpg" alt="EER Diagram" style="width: 40%;">
