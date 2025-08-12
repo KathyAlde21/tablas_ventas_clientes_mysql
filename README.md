@@ -57,11 +57,11 @@ REFERENCES clientes ( idcliente );
 <p>Alimentando la base de datos:</p>
 
 ```SQL
-INSERT INTO clientes VALUES (1,'Antonia','Aranda','Calle Los Aromos #123',991111111);
-
-INSERT INTO clientes VALUES (2,'Bernarda','Barros','Pasaje Manuel Balmaceda #456',992222222);
-
-INSERT INTO clientes VALUES (3,'Carlos','Costa','Avenida Simón Bolivar #789',993333333);
+INSERT INTO clientes 
+ VALUES
+ (1,'Antonia','Aranda','Calle Los Aromos #123',991111111),
+ (2,'Bernarda','Barros','Pasaje Manuel Balmaceda #456',992222222),
+ (3,'Carlos','Costa','Avenida Simón Bolivar #789',993333333);
 
 INSERT INTO ventas (idventa, vendedor, cantarticulos, subtotal, impuesto, total, clientes_idcliente) VALUES (1,'Andrés Aranda',3,4500,500,5000,1);
 
@@ -78,17 +78,34 @@ INSERT INTO ventas (idventa, cantarticulos, clientes_idcliente, subtotal, impues
 
 ```
 📁ventas_negocio_2
-└── 📁img
+├── README.md
+├── 📁img
+│    ├── consulta_cinco.jpg
+│    ├── consulta_cuatro.jpg
+│    ├── consulta_dos.jpg
+│    ├── consulta_tres.jpg
+│    ├── consulta_uno.jpg
+│    ├── eer_diagram.jpg
 │    └── 📁wireframes
 │        └── wireframe_bbdd.jpg
 └── 📁mysql
     ├── alimentando_bbdd_tclientes_tventas.sql
+    ├── eer_diagram.sql
     ├── 📁tabla_clientes
-    │   ├── creando_tabla.sql
-    │   └── x.
+    │    ├── consulta_cinco.jpg
+    │    ├── consulta_cinco_con_registros.sql
+    │    ├── consulta_cuatro.jpg
+    │    ├── consulta_cuatro_con_registros.sql
+    │    ├── consulta_tres.jpg
+    │    ├── consulta_tres_con_registros.sql
+    │    └── consulta_dos.jpg
+    │    ├── consulta_dos_con_registros.sql
+    │    ├── consulta_uno.jpg
+    │    └── consulta_uno_con_registros.sql
+    ├── 📁tabla_clientes
+    │   └── creando_tabla.sql
     └── 📁tabla_ventas
-        ├── creando_tabla.sql
-        └── x.
+        └── creando_tabla.sql
 ```
 
 **<h3>:blue_book: Consultas ejecutadas:</h3>**
